@@ -79,9 +79,7 @@ Added > Triggered Tasks > User Defined Scripts
 ```
 Task: Event Software
 User: root
-event: start
+Event: start
 Before mission: none
-task settings
-Run command: (see command below)
-dockerd &
+Run command: dockerd &
 ```
