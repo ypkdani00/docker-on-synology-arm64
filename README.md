@@ -5,7 +5,7 @@ Install Docker on Synology NAS with ARM64 (Armv8-AArch64) CPU
 
 - DSM7.0 and above support bridge mode
 - During the installation process, you need to enable the SSH function of Synology
-- Working directory of docker is /volume1/@docker
+- Working directory of docker is **/volume1/@docker**
 
 ## 1. Check prcessor architecture
 
