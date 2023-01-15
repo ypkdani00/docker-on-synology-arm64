@@ -7,7 +7,19 @@ Install Docker on Synology NAS with ARM64 (Armv8-AArch64) CPU
 - During the installation process, you need to enable the SSH function of Synology
 - Working directory of docker is **/volume1/@docker**
 
-## 1. Check prcessor architecture
+# SCRIPT INSTALLATION
+
+Execute the command ```sudo -i``` to become sudo
+
+Download the script
+
+Launch the script
+
+Follow the last point **RUN DOCKER** her below
+
+# MANUAL INSTALLATION
+
+## 1. Check processor architecture
 
 Check the Processor Architecture by ```uname -m``` command, for example, the processor architecture of DS218play is 'aarch64'
 
@@ -59,7 +71,7 @@ use **SHIFT Z Z** to save and exit
 
 ```wget -qO- https://github.com/412999826/docker-arm-based-synology/raw/main/install.sh| bash```
 
-## 6. Run docker
+# Run docker
 
 Execute the command
 
