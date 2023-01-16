@@ -11,9 +11,14 @@ Install Docker on Synology NAS with ARM64 (Armv8-AArch64) CPU
 
 Execute the command ```sudo -i``` to become sudo
 
-Download the script
+Download the script **install.sh** with the command 
+``` wget https://github.com/ypkdani00/docker-on-synology-arm64/raw/main/install.sh```
 
 Launch the script
+```
+chmod +x install.sh
+./install.sh
+```
 
 Follow the last point **RUN DOCKER** her below
 
@@ -95,3 +100,17 @@ Event: start
 Before mission: none
 Run command: dockerd &
 ```
+
+do a **reboot** of the NAS from the WEB GUI or with the command ```sudo reboot```
+
+wait until the docker container go up, you can re-login with SSH and check this with the command
+
+```
+docker ps
+```
+
+in the column **STATUS** you need to wait **UP X minutes**, normally it take 2-3min before the docker container be completelly up.
+
+With a web browser go to the address **https://your-local-ip:8123**
+
+**DONE**

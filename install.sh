@@ -21,4 +21,4 @@ cat <<EOT > /etc/docker/daemon.json
 }
 EOT
 
-echo "Follow the RUN DOCKER point"
+echo "Follow the RUN DOCKER point on the README.md file"
