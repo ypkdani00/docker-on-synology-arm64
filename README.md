@@ -56,7 +56,14 @@ Create the config file
 
 ```
 mkdir -p /etc/docker
+```
+
+edit the file with **vi** or **nano**
+```
 vi /etc/docker/daemon.json
+```
+```
+nano /etc/docker/daemon.json
 ```
 
 and past the configuration
@@ -71,10 +78,6 @@ and past the configuration
 **/volume1/@docker** is the docker working directory, which can be modified as needed
 
 use **SHIFT Z Z** to save and exit
-
-## 5. Launch the script
-
-```wget -qO- https://github.com/412999826/docker-arm-based-synology/raw/main/install.sh| bash```
 
 # Run docker
 
