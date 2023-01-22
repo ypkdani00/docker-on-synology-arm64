@@ -79,7 +79,7 @@ and past the configuration
 
 use **SHIFT Z Z** to save and exit
 
-# Run docker
+# Run Docker
 
 Execute the command
 
@@ -114,6 +114,5 @@ docker ps
 
 in the column **STATUS** you need to wait **UP X minutes**, normally it take 2-3min before the docker container be completelly up.
 
-With a web browser go to the address **https://your-local-ip:8123**
 
 **DONE**
